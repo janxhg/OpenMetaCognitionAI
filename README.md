@@ -118,8 +118,8 @@ plotly>=5.0.0
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/janxhg/OpenMetaCognition
-cd OpenMetaCognition
+git clone https://github.com/NeuroForgeLabs/sistema-metacognitivo.git
+cd sistema-metacognitivo
 
 # Instalar dependencias
 pip install -r requirements.txt
@@ -128,7 +128,7 @@ pip install -r requirements.txt
 ### Entrenamiento de un Modelo
 
 ```bash
-python train.py \
+python Scripts/training/entrenar_con_metacognitivo_directo.py \
     --modelo_base nuevo \
     --dir_trabajo ./datos_entrenamiento \
     --dataset_externo ./datos/textos \
@@ -173,8 +173,8 @@ you may not use this file except in compliance with the License.
 
 ## 🔗 Enlaces y Contacto
 
-[Documentación Completa]() | 
-[Reporte Técnico]() | 
-[Comunidad Discord]()
+[Documentación Completa](https://github.com/NeuroForgeLabs/sistema-metacognitivo/wiki) | 
+[Reporte Técnico](https://github.com/NeuroForgeLabs/sistema-metacognitivo/papers) | 
+[Comunidad Discord](https://discord.gg/neuroforgecommunity)
 
 </div>
