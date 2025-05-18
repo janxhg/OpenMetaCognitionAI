@@ -178,4 +178,5 @@ you may not use this file except in compliance with the License.
 [Technical Paper](https://github.com/NeuroForgeLabs/metacognitive-system/papers) | 
 [Discord Community](https://discord.gg/7JUAdayE)
 
+**Contact:** neuroforgelabs@proton.me
 </div>
