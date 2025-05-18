@@ -76,7 +76,7 @@ python training/entrenar_con_metacognitivo_directo.py \
 
 Este proyecto está licenciado bajo:
 
-APACHE 2.0 License
+ Apache-2.0 license
 
 Copyright (c) 2025 	NeuroForge Labs
 
