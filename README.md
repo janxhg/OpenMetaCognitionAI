@@ -1,8 +1,9 @@
+
 <div align="center">
 
-# 🧠 Sistema Metacognitivo para Modelos de IA
+# 🧠 Metacognitive System for AI Models
 
-**Entrenamiento acelerado y auto-optimizado para modelos de lenguaje**
+**Accelerated and Self-Optimized Training for Language Models**
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-ee4c2c.svg)](https://pytorch.org/)
@@ -10,96 +11,96 @@
 
 </div>
 
-## 🔍 Descripción General
+## 🔍 Overview
 
-El Sistema Metacognitivo es una arquitectura revolucionaria que permite a los modelos de IA **observar y participar activamente en su propio proceso de aprendizaje**. Este enfoque innovador implementa un ciclo completo de metacognición artificial:
+The Metacognitive System is a revolutionary architecture that enables AI models to **observe and actively participate in their own learning process**. This innovative approach implements a complete artificial metacognition cycle:
 
-1. **🔍 Observación:** El modelo analiza sus propios pesos, gradientes y comportamiento en tiempo real
-2. **💭 Reflexión:** Genera insights sobre su proceso de aprendizaje y estado interno
-3. **🛠️ Modificación:** Ajusta sus propios parámetros basándose en sus reflexiones
-4. **📚 Aprendizaje Autónomo:** Extrae y organiza conocimiento de materiales de estudio
+1. **🔍 Observation:** The model analyzes its own weights, gradients, and behavior in real-time
+2. **💭 Reflection:** Generates insights about its learning process and internal state
+3. **🛠️ Modification:** Adjusts its own parameters based on reflections
+4. **📚 Autonomous Learning:** Extracts and organizes knowledge from study materials
 
-## ⚡ Aceleración Revolucionaria del Entrenamiento
+## ⚡ Revolutionary Training Acceleration
 
-Nuestro enfoque metacognitivo logra una **aceleración de hasta 100x** en el entrenamiento de modelos, permitiendo:
+Our metacognitive approach achieves **up to 100x acceleration** in model training, enabling:
 
-| Modelo | Dataset | Hardware | Tiempo Tradicional | Tiempo Metacognitivo |
+| Model | Dataset | Hardware | Traditional Time | Metacognitive Time |
 |--------|---------|----------|-------------------|----------------------|
-| 100M parámetros | 22GB | GPU GTX 1650 | ~100 días | **1 día** |
-| 30M parámetros | 28GB | GPU GTX 1650 | ~30 días | **4 horas** |
+| 100M params | 22GB | GTX 1650 GPU | ~100 days | **1 day** |
+| 30M params | 28GB | GTX 1650 GPU | ~30 days | **4 hours** |
 
-> *"El enfoque metacognitivo no solo acelera el entrenamiento, sino que produce modelos con capacidades de auto-explicación y razonamiento mejoradas."*
+> *"The metacognitive approach not only accelerates training but produces models with enhanced self-explanation and reasoning capabilities."*
 
-## 🏗️ Arquitectura del Sistema
+## 🏗️ System Architecture
 
 <div align="center">
 
 ```mermaid
 flowchart TD
-    A[Material de Estudio] --> B[Cerebro Autónomo]
-    B --> C[Extracción de Conceptos]
-    C --> D[Ciclo Metacognitivo]
-    D --> E[Auto-Observación]
-    E --> F[Reflexión]
-    F --> G[Auto-Modificación]
+    A[Study Material] --> B[Autonomous Brain]
+    B --> C[Concept Extraction]
+    C --> D[Metacognitive Cycle]
+    D --> E[Self-Observation]
+    E --> F[Reflection]
+    F --> G[Self-Modification]
     G --> D
-    D --> H[Modelo Optimizado]
+    D --> H[Optimized Model]
 ```
 
 </div>
 
-## 📁 Estructura del Repositorio
+## 📁 Repository Structure
 
-### 🧠 Core - Núcleo Metacognitivo
-| Módulo | Descripción |
+### 🧠 Core - Metacognitive Engine
+| Module | Description |
 |--------|-------------|
-| `cerebro_autonomo.py` | Procesamiento cognitivo y extracción de conceptos |
-| `auto_observacion.py` | Análisis de pesos, gradientes y activaciones internas |
-| `reflexion_metacognitiva.py` | Generación de insights sobre el aprendizaje |
-| `auto_modificacion.py` | Modificación autónoma de parámetros |
-| `ciclo_metacognitivo.py` | Orquestación del ciclo completo de metacognición |
-| `sistema_metacognitivo_integrado.py` | Integración de todos los componentes |
+| `autonomous_brain.py` | Cognitive processing and concept extraction |
+| `self_observation.py` | Analysis of weights, gradients and activations |
+| `metacognitive_reflection.py` | Learning insight generation |
+| `self_modification.py` | Autonomous parameter adjustment |
+| `metacognitive_cycle.py` | Full cycle orchestration |
+| `integrated_metacognitive_system.py` | All components integration |
 
-### 🏋️ Training - Entrenamiento Avanzado
-| Módulo | Descripción |
+### 🏋️ Training - Advanced Training
+| Module | Description |
 |--------|-------------|
-| `entrenamiento_metacognitivo.py` | Framework de entrenamiento con capacidades metacognitivas |
-| `train.py` | Implementación optimizada para entrenamiento rápido |
+| `metacognitive_training.py` | Training framework with metacognitive capabilities |
+| `train.py` | Optimized training implementation |
 
-### 🔧 Utilidades y Herramientas
-| Módulo | Descripción |
+### 🔧 Utilities
+| Module | Description |
 |--------|-------------|
-| `tokenizador_metacognitivo.py` | Tokenizador con capacidades metacognitivas |
-| `crear_modelo_desde_cero.py` | Generación de modelos base personalizados |
-| `probar_modelo_integrado.py` | Suite de pruebas para modelos entrenados |
+| `metacognitive_tokenizer.py` | Metacognitive-capable tokenizer |
+| `create_model_from_scratch.py` | Custom base model generation |
+| `test_integrated_model.py` | Test suite for trained models |
 
-## 🔄 Ciclo Metacognitivo Detallado
+## 🔄 Detailed Metacognitive Cycle
 
-Nuestro sistema implementa un ciclo metacognitivo completo que revoluciona el entrenamiento tradicional:
+Our system implements a complete metacognitive cycle that revolutionizes traditional training:
 
 <div align="center">
 
-| Fase | Descripción | Componentes Clave |
+| Phase | Description | Key Components |
 |------|-------------|-------------------|
-| **📚 Aprendizaje** | Extracción de conceptos y relaciones de materiales de estudio | `cerebro_autonomo.py` |
-| **🔍 Introspección** | Análisis en tiempo real de pesos, gradientes y activaciones | `auto_observacion.py` |
-| **💭 Reflexión** | Generación de insights sobre el estado del modelo y su aprendizaje | `reflexion_metacognitiva.py` |
-| **🛠️ Auto-modificación** | Ajuste autónomo de parámetros basado en las reflexiones | `auto_modificacion.py` |
+| **📚 Learning** | Concept extraction from study materials | `autonomous_brain.py` |
+| **🔍 Introspection** | Real-time analysis of weights/gradients | `self_observation.py` |
+| **💭 Reflection** | Insights about model state and learning | `metacognitive_reflection.py` |
+| **🛠️ Self-Modification** | Autonomous parameter adjustment | `self_modification.py` |
 
 </div>
 
-## 📊 Ventajas Sobre Entrenamiento Tradicional
+## 📊 Advantages Over Traditional Training
 
-- **⚡ Aceleración 100x**: Convergencia dramáticamente más rápida
-- **💻 Eficiencia de recursos**: Resultados de calidad en hardware modesto
-- **🧩 Auto-optimización**: El modelo ajusta sus propios hiperparámetros
-- **🔄 Detección de sobreajuste**: Identificación temprana de problemas de entrenamiento
-- **📈 Mejor generalización**: Modelos con mejor desempeño en tareas nuevas
+- **⚡ 100x Acceleration**: Dramatically faster convergence
+- **💻 Resource Efficiency**: Quality results on modest hardware
+- **🧩 Self-Optimization**: Models adjust their own hyperparameters
+- **🔄 Overfitting Detection**: Early identification of training issues
+- **📈 Better Generalization**: Improved performance on new tasks
 
-## 🔧 Requisitos Técnicos
+## 🔧 Technical Requirements
 
 ```bash
-# Requisitos mínimos
+# Minimum requirements
 python>=3.8
 pytorch>=1.9.0
 transformers>=4.15.0
@@ -110,57 +111,57 @@ pandas>=1.3.0
 plotly>=5.0.0
 ```
 
-**Hardware recomendado**: GPU NVIDIA con al menos 4GB VRAM (GTX 1650 o superior)
+**Recommended Hardware**: NVIDIA GPU with at least 4GB VRAM (GTX 1650 or better)
 
-## 🚀 Guía de Inicio Rápido
+## 🚀 Quick Start Guide
 
-### Instalación
+### Installation
 
 ```bash
-# Clonar el repositorio
-git clone https://github.com/NeuroForgeLabs/sistema-metacognitivo.git
-cd sistema-metacognitivo
+# Clone repository
+git clone https://github.com/NeuroForgeLabs/metacognitive-system.git
+cd metacognitive-system
 
-# Instalar dependencias
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-### Entrenamiento de un Modelo
+### Model Training
 
 ```bash
-python Scripts/training/entrenar_con_metacognitivo_directo.py \
-    --modelo_base nuevo \
-    --dir_trabajo ./datos_entrenamiento \
-    --dataset_externo ./datos/textos \
-    --nivel_inteligencia 10 \
-    --ciclos 25 \
-    --pasos 1000 \
-    --usar_cerebro_autonomo \
+python Scripts/training/train_with_metacognitive.py \
+    --base_model new \
+    --work_dir ./training_data \
+    --external_dataset ./data/texts \
+    --intelligence_level 10 \
+    --cycles 25 \
+    --steps 1000 \
+    --use_autonomous_brain \
     --batch_size 4 \
     --learning_rate 5e-5 \
     --fp16
 ```
 
-### Visualización del Proceso Metacognitivo
+### Visualization
 
 ```bash
-python Scripts/utils/visualizar_aprendizaje.py \
-    --ruta_modelo ./modelos/mi_modelo_metacognitivo \
-    --mostrar_grafo_conceptos \
-    --mostrar_evolucion_pesos
+python Scripts/utils/visualize_learning.py \
+    --model_path ./models/my_metacognitive_model \
+    --show_concept_graph \
+    --show_weight_evolution
 ```
 
-## 📚 Modelos Pre-entrenados
+## 📚 Pre-Trained Models
 
-Ofrecemos varios modelos pre-entrenados con diferentes capacidades:
+Available pre-trained models with different capabilities:
 
-| Modelo | Descripción | Mejor Caso de Uso |
+| Model | Description | Best Use Case |
 |--------|-------------|-------------------|
-| **MetaCog-C3** | Alta coherencia, estructurado | Chatbots, asistentes virtuales |
-| **MetaCog-C2** | Equilibrio coherencia/creatividad | Uso general, versatilidad |
-| **MetaCog-RA** | Capacidades metacognitivas | Sistemas educativos, auto-explicación |
+| **MetaCog-C3** | High coherence, structured | Chatbots, virtual assistants |
+| **MetaCog-C2** | Balanced coherence/creativity | General purpose |
+| **MetaCog-RA** | Metacognitive capabilities | Educational systems |
 
-## 📄 Licencia
+## 📄 License
 
 ```
 Copyright (c) 2025 NeuroForge Labs
@@ -171,10 +172,10 @@ you may not use this file except in compliance with the License.
 
 <div align="center">
 
-## 🔗 Enlaces y Contacto
+## 🔗 Links & Contact
 
-[Documentación Completa](https://github.com/NeuroForgeLabs/sistema-metacognitivo/wiki) | 
-[Reporte Técnico](https://github.com/NeuroForgeLabs/sistema-metacognitivo/papers) | 
-[Comunidad Discord](https://discord.gg/7JUAdayE)
+[Full Documentation](https://github.com/NeuroForgeLabs/metacognitive-system/wiki) | 
+[Technical Paper](https://github.com/NeuroForgeLabs/metacognitive-system/papers) | 
+[Discord Community](https://discord.gg/7JUAdayE)
 
 </div>
