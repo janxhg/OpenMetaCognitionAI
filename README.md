@@ -175,6 +175,6 @@ you may not use this file except in compliance with the License.
 
 [Documentación Completa](https://github.com/NeuroForgeLabs/sistema-metacognitivo/wiki) | 
 [Reporte Técnico](https://github.com/NeuroForgeLabs/sistema-metacognitivo/papers) | 
-[Comunidad Discord](https://discord.gg/neuroforgecommunity)
+[Comunidad Discord](https://discord.gg/7JUAdayE)
 
 </div>
