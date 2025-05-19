@@ -2,80 +2,44 @@
 torch>=2.0.0
 transformers>=4.30.0
 numpy>=1.24.0
-pandas>=2.0.0
 scikit-learn>=1.2.0
-matplotlib>=3.7.0
+pandas>=2.0.0
 tqdm>=4.65.0
+matplotlib>=3.7.0
 
 # Procesamiento de lenguaje natural
 nltk>=3.8.0
-spacy>=3.5.0
-gensim>=4.3.0
 sentence-transformers>=2.2.2
 
-# Procesamiento de audio
+# Procesamiento de audio (para procesamiento multimodal)
 SpeechRecognition>=3.10.0
 pydub>=0.25.1
 librosa>=0.10.0
-soundfile>=0.12.1
 
-# Procesamiento de video
+# Procesamiento de video (para procesamiento multimodal)
 moviepy>=1.0.3
 opencv-python>=4.7.0
-pytube>=15.0.0
 
-# Procesamiento de imágenes
+# Procesamiento de imágenes (para procesamiento multimodal)
 Pillow>=9.5.0
 pytesseract>=0.3.10
-opencv-python-headless>=4.7.0
 
 # Utilidades de datos
-jsonlines>=3.1.0
-pyarrow>=12.0.0
-h5py>=3.8.0
 pyyaml>=6.0
+jsonlines>=3.1.0
 
 # Optimización y paralelismo
+accelerate>=0.20.0
 joblib>=1.2.0
-ray>=2.5.0
-dask>=2023.5.0
 
 # Visualización y monitoreo
 tensorboard>=2.12.0
-wandb>=0.15.0
-plotly>=5.14.0
-
-# Optimización de modelos
-onnx>=1.14.0
-onnxruntime>=1.15.0
-accelerate>=0.20.0
-bitsandbytes>=0.40.0
-optimum>=1.8.0
-
-# Herramientas de desarrollo
-pytest>=7.3.1
-black>=23.3.0
-flake8>=6.0.0
-isort>=5.12.0
-
-# Utilidades del sistema
-psutil>=5.9.0
-py-cpuinfo>=9.0.0
-gputil>=1.4.0
-
-# Integración con bases de datos
-sqlalchemy>=2.0.0
-pymongo>=4.4.0
-redis>=4.5.0
 
 # APIs y servicios
 requests>=2.30.0
-fastapi>=0.95.0
-uvicorn>=0.22.0
-pydantic>=2.0.0
 
 # Serialización y almacenamiento
-pickle5>=0.0.12
 cloudpickle>=2.2.0
-lz4>=4.3.0
-zstandard>=0.21.0
+
+# Utilidades del sistema
+psutil>=5.9.0
