@@ -3,7 +3,7 @@
 
 # 🧠 Metacognitive System for AI Models
 
-**Accelerated and Self-Optimized Training for Language Models**
+**Accelerated, Self-Optimizing Training for Language Models**
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-ee4c2c.svg)](https://pytorch.org/)
@@ -13,31 +13,23 @@
 
 ## 🔍 Overview
 
-The Metacognitive System is a revolutionary architecture that enables AI models to **observe and actively participate in their own learning process**. This innovative approach implements a complete artificial metacognition cycle:
+This project aims to build a **metacognitive system that allows AI models to observe, analyze, and adjust their own learning processes**. Through a cycle of introspection and modification, models can evolve autonomously during training.
 
-1. **🔍 Observation:** The model analyzes its own weights, gradients, and behavior in real-time
-2. **💭 Reflection:** Generates insights about its learning process and internal state
-3. **🛠️ Modification:** Adjusts its own parameters based on reflections
-4. **📚 Autonomous Learning:** Extracts and organizes knowledge from study materials
+Initial tests have yielded **functional models**, even though they're not yet optimal. Notably, the entire process runs on **low-cost hardware (GTX 1650 + 16 GB RAM)** with **surprisingly fast training times**.
 
-## ⚡ Revolutionary Training Acceleration
+## 🧠 Purpose: Real Acceleration & Self-Improvement
 
-Our metacognitive approach achieves **up to 100x acceleration** in model training, enabling:
+The goal is not just faster training, but to enable **models that understand and improve themselves**. This includes:
 
-| Model | Dataset | Hardware | Traditional Time | Metacognitive Time |
-|--------|---------|----------|-------------------|----------------------|
-| 100M params | 22GB | GTX 1650 GPU | ~100 days | **1 day** |
-| 30M params | 28GB | GTX 1650 GPU | ~30 days | **4 hours** |
+* Introspective reasoning
+* Parameter self-adjustment
+* Real-time performance analysis during training
 
-> *"The metacognitive approach not only accelerates training but produces models with enhanced self-explanation and reasoning capabilities."*
-
-## 🏗️ System Architecture
-
-<div align="center">
+## 🛠️ General Architecture
 
 ```mermaid
 flowchart TD
-    A[Study Material] --> B[Autonomous Brain]
+    A[Training Material] --> B[Autonomous Brain]
     B --> C[Concept Extraction]
     C --> D[Metacognitive Cycle]
     D --> E[Self-Observation]
@@ -47,86 +39,42 @@ flowchart TD
     D --> H[Optimized Model]
 ```
 
-</div>
+## ⚙️ Code Structure
 
-## 📁 Repository Structure
+| File / Module                 | Function                                     |
+| ----------------------------- | -------------------------------------------- |
+| `autonomous_brain.py`         | Automatically extracts concepts              |
+| `self_observation.py`         | Observes weights, gradients, and activations |
+| `metacognitive_reflection.py` | Reflects on the model's state                |
+| `self_modification.py`        | Adjusts the model autonomously               |
+| `metacognitive_training.py`   | Trains models with introspection             |
+| `train.py`                    | General training script                      |
 
-### 🧠 Core - Metacognitive Engine
-| Module | Description |
-|--------|-------------|
-| `autonomous_brain.py` | Cognitive processing and concept extraction |
-| `self_observation.py` | Analysis of weights, gradients and activations |
-| `metacognitive_reflection.py` | Learning insight generation |
-| `self_modification.py` | Autonomous parameter adjustment |
-| `metacognitive_cycle.py` | Full cycle orchestration |
-| `integrated_metacognitive_system.py` | All components integration |
+## 📈 Early Results
 
-### 🏋️ Training - Advanced Training
-| Module | Description |
-|--------|-------------|
-| `metacognitive_training.py` | Training framework with metacognitive capabilities |
-| `train.py` | Optimized training implementation |
+* ✔️ Functional models already working
+* 🖥️ Trained on low-cost hardware (GTX 1650, 16 GB RAM)
+* ⚡ Training completed in record times
+* 🔧 Models are not yet optimal, but improve as they train
 
-### 🔧 Utilities
-| Module | Description |
-|--------|-------------|
-| `metacognitive_tokenizer.py` | Metacognitive-capable tokenizer |
-| `create_model_from_scratch.py` | Custom base model generation |
-| `test_integrated_model.py` | Test suite for trained models |
+## 🔄 Metacognitive Cycle
 
-## 🔄 Detailed Metacognitive Cycle
+| Stage            | Purpose                                      |
+| ---------------- | -------------------------------------------- |
+| **Observation**  | Analyze internal model state                 |
+| **Reflection**   | Generate hypotheses and learning insights    |
+| **Modification** | Change parameters, architecture, or behavior |
+| **Repetition**   | Cycle repeats throughout training            |
 
-Our system implements a complete metacognitive cycle that revolutionizes traditional training:
-
-<div align="center">
-
-| Phase | Description | Key Components |
-|------|-------------|-------------------|
-| **📚 Learning** | Concept extraction from study materials | `autonomous_brain.py` |
-| **🔍 Introspection** | Real-time analysis of weights/gradients | `self_observation.py` |
-| **💭 Reflection** | Insights about model state and learning | `metacognitive_reflection.py` |
-| **🛠️ Self-Modification** | Autonomous parameter adjustment | `self_modification.py` |
-
-</div>
-
-## 📊 Advantages Over Traditional Training
-
-- **⚡ 100x Acceleration**: Dramatically faster convergence
-- **💻 Resource Efficiency**: Quality results on modest hardware
-- **🧩 Self-Optimization**: Models adjust their own hyperparameters
-- **🔄 Overfitting Detection**: Early identification of training issues
-- **📈 Better Generalization**: Improved performance on new tasks
-
-## 🔧 Technical Requirements
+## 📦 Installation
 
 ```bash
-# Minimum requirements
-python>=3.8
-pytorch>=1.9.0
-transformers>=4.15.0
-numpy>=1.20.0
-matplotlib>=3.4.0
-networkx>=2.6.0
-pandas>=1.3.0
-plotly>=5.0.0
-```
-
-**Recommended Hardware**: NVIDIA GPU with at least 4GB VRAM (GTX 1650 or better)
-
-## 🚀 Quick Start Guide
-
-### Installation
-
-```bash
-# Clone repository
-git clone https://github.com/NeuroForgeLabs/metacognitive-system.git
+git clone (soon)
 cd metacognitive-system
-
-# Install dependencies
 pip install -r requirements.txt
 ```
 
-### Model Training
+## 🚀 Training Example
 
 ```bash
 python Scripts/training/train_with_metacognitive.py \
@@ -142,41 +90,25 @@ python Scripts/training/train_with_metacognitive.py \
     --fp16
 ```
 
-### Visualization
+## 💡 Next Steps
 
-```bash
-python Scripts/utils/visualize_learning.py \
-    --model_path ./models/my_metacognitive_model \
-    --show_concept_graph \
-    --show_weight_evolution
-```
-
-## 📚 Pre-Trained Models
-
-Available pre-trained models with different capabilities:
-
-| Model | Description | Best Use Case |
-|--------|-------------|-------------------|
-| **MetaCog-C3** | High coherence, structured | Chatbots, virtual assistants |
-| **MetaCog-C2** | Balanced coherence/creativity | General purpose |
-| **MetaCog-RA** | Metacognitive capabilities | Educational systems |
+* Refine reflection and self-adjustment mechanisms
+* Improve model awareness of overfitting
+* Integrate deeper attention and activation analysis
 
 ## 📄 License
 
 ```
-Copyright (c) 2025 NeuroForge Labs
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
+Apache 2.0 License
 ```
 
 <div align="center">
 
-## 🔗 Links & Contact
+## 🧠 Contact
 
-[Full Documentation](https://github.com/NeuroForgeLabs/metacognitive-system/wiki) | 
-[Technical Paper](https://github.com/NeuroForgeLabs/metacognitive-system/papers) | 
-[Discord Community](https://discord.gg/7JUAdayE)
+**Developed by:** NeuroForge Labs
+📧 Email: [neuroforgelabs@proton.me](mailto:neuroforgelabs@proton.me)
+🤝 Discord: [Join us](https://discord.gg/7JUAdayE)
 
-**Contact:** neuroforgelabs@proton.me
 </div>
+
