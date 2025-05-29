@@ -108,7 +108,7 @@ Apache 2.0 License
 
 **Developed by:** NeuroForge Labs
 📧 Email: [neuroforgelabs@proton.me](mailto:neuroforgelabs@proton.me)
-🤝 Discord: [Join us](https://discord.gg/7JUAdayE)
+🤝 Discord: [Join us]([https://discord.gg/w9RsadnAsW)
 
 </div>
 
