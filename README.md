@@ -66,13 +66,6 @@ flowchart TD
 | **Modification** | Change parameters, architecture, or behavior |
 | **Repetition**   | Cycle repeats throughout training            |
 
-## 📦 Installation
-
-```bash
-git clone (soon)
-cd metacognitive-system
-pip install -r requirements.txt
-```
 
 ## 🚀 Training Example
 
