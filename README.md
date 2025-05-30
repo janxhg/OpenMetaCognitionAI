@@ -88,7 +88,7 @@ The cycle operates continuously during training, with each iteration improving b
 
 ```bash
 python train.py \
-    --modelo_base "gpt2" \
+    --modelo_base "new" \
     --dispositivo "cuda" \
     --dir_salida "./resultados" \
     --dir_datos "./datos/textos" \
